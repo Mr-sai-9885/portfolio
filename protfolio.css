@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mail {
+    font-size: 10px;
+    color: blue;
+    text-align: center;
+
+}
+
+.pro-img {
+    height: 20vh;
+
+}
+
+.pro {
+    color: green;
+
+}
+
+.bg-airline-gradient {
+    background: linear-gradient(135deg, #6ec1e4, #0078b8);
+}
+
+.highlight {
+    color: #ffdd59;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #6ec1e4;
+}
+
+.bg-skill {
+    background: linear-gradient(135deg, #0078b8, #6ec1e4);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.bg-airline-blue {
+    background-color: #0078b8;
+}
+
+.shadow-3d {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+}
+
+.btn-airline {
+    background: #ffdd59;
+    color: #333;
+    border: none;
+}
+
+.btn-airline:hover {
+    background: #0078b8;
+    color: white;
+}
+
+
+
+/*  tourist */
+
+.tour {
+    background-color: lightblue;
+    text-align: center;
+    background-image: url("https://islandwatersportshawaii.com/wp-content/uploads/2024/01/hawaii-beach.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-heading {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.t-card {
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 5px;
+
+}
+
+.paragraph-home {
+    color: black;
+}
+
+.mainbutton {
+    color: white;
+    background-color: #3ce647;
+    height: 36px;
+    width: 138px;
+    border-radius: 25px;
+
+}
+
+
+
+
+
+.main {
+    background-image: url("https://www.onecuriousguide.com/wp-content/uploads/2024/08/bd2cc078-ef98-4b3e-ba42-703fa765f3a4-768x768.jpg");
+    background-size: cover;
+    height: 170vh;
+    width: 100vw;
+    padding: 5px;
+    font-family: Roboto;
+
+}
+
+.holecard {
+    background-color: white;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.textcard {
+    font-family: Roboto;
+
+
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+}
+
+.heading {
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+
+
+
+
+
+.detailed-view-card {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 15px;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.text {
+    padding: 20px;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.text-heading {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.card {
+    margin: 30px;
+}
